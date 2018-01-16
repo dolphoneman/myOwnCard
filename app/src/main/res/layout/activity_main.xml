@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/fireworks"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:textSize="40sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"
+        android:padding="20dp"
+        android:text="Have an Explosive" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="50sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"
+        android:padding="20dp"
+        android:text="4th of" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="10dp"
+            android:background="@android:color/holo_blue_dark"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="45sp"
+            android:textColor="@android:color/red"
+            android:text="J"/>
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="10dp"
+            android:background="@android:color/red"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="45sp"
+            android:textColor="@android:color/holo_blue_dark"
+            android:text="U"/>
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@android:color/holo_blue_dark"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="45sp"
+            android:textColor="@android:color/red"
+            android:text="L"/>
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:layout_marginEnd="10dp"
+            android:background="@android:color/red"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="45sp"
+            android:textColor="@android:color/holo_blue_dark"
+            android:text="Y"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+
